@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EsercizioVite</title>
+  <script type="module" crossorigin src="/assets/js/main.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/css/style.min.css">
+</head>
+<body>
+    <!-- NAVBAR, CAROUSEL, SEZIONE ABOUT(H2 TITOLO, P), SEZIONE SERVICES(3 COLONNE CON 3 CARD), FOOTER(P-> SITO CREATO DA SAVINO LANOTTE)) -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Esercizio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section id="slides">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="/assets/images/slide1.jpg" style="height: 93vh;" class="d-block w-100 object-fit-cover" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="/assets/images/slide2.jpg" style="height: 93vh;" class="d-block w-100 object-fit-cover" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/images/slide3.jpg" style="height: 93vh;" class="d-block w-100 object-fit-cover" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section id="about" class="py-5 min-vh-100">
+          <div class="container text-center" class="">
+            <div class="titolo">
+              <h2>ABOUT</h2>
+            </div>
+            <div class="paragrafo">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint laudantium ex dolores eveniet tempore ad explicabo totam aut assumenda?</p>
+            </div>
+          </div>
+        </section>
+
+        <hr style="border: 3px solid black;">
+
+        <section id="services" class="py-5 min-vh-100 d-flex align-items-center">
+          <div class="container text-center">
+            <h2 class="mb-3">SERVICES</h2>
+            <div class="row">
+              <div class="col-lg-4 col-12">
+                <div class="card">
+                  <img src="/assets/images/card1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="card">
+                  <img src="/assets/images/card1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="card">
+                  <img src="/assets/images/card1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">Sito creato da Savino Lanotte</p>
+    </footer>
+
+</body>
+</html>
